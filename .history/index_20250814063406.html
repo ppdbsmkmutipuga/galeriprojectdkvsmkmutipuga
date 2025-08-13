@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Project DKV CorelDRAW</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="hero-header">
+        <h1>Galeri Project DKV <span>SMK MUTIPUGA</span></h1>
+        <p>
+            <strong>Sekolah Digital Kreatif Unggulan di Kabupaten Demak</strong> –
+            Di sinilah ide-ide kreatif siswa berubah menjadi karya nyata.
+            Dari CorelDRAW hingga desain digital terkini, setiap project adalah bukti keunggulan dan inovasi.
+        </p>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+        <section class="grid-container" id="projectGrid">
+            <!-- Card project akan dimasukkan lewat JavaScript -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 <strong>SMK MUTIPUGA</strong> – Pembelajaran DKV CorelDRAW</p>
+    </footer>
+
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" aria-label="Tutup Popup">&times; Tutup</button>
+
+            <img id="modalImage" src="" alt="Project">
+            <h2 id="modalTitle"></h2>
+
+            <div class="modal-scroll">
+                <h4>Yang Dipelajari:</h4>
+                <ul id="modalBelajar"></ul>
+                <h4>Tujuan:</h4>
+                <ul id="modalTujuan"></ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+/* Modal background */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+/* Modal box */
+.modal-content {
+    background: white;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    max-height: 90vh; /* Biar nggak melebihi layar */
+    overflow: hidden; /* Scroll hanya di area dalam */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Scrollable area */
+.modal-scroll {
+    flex: 1;
+    overflow: auto; /* Scroll muncul kalau konten panjang */
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+/* Biar bisa scroll kanan kiri juga */
+.modal-scroll ul, 
+.modal-scroll p {
+    min-width: 600px; /* Kalau mau horizontal scroll */
+}
+
+/* Gambar di modal */
+.modal-content img {
+    max-height: 300px;
+    object-fit: contain;
+    width: 100%;
+}
+
+/* Tombol close */
+.close-btn {
+    position: absolute;
+    top: 15px; right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}

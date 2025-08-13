@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+    color: #333;
+}
+
+header {
+    background: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-bottom: 2rem;
+}
+
+.project-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 10px;
+}
+
+.project-info h3 {
+    margin: 5px 0;
+    color: #0066cc;
+}
+
+footer {
+    background: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 0.7rem;
+    margin-top: 2rem;
+}
+
+/* Modal Style */
+/* Modal background */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Modal box */
+.modal-content {
+    background: white;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    max-height: 90vh;
+    /* Biar nggak melebihi layar */
+    overflow: hidden;
+    /* Scroll hanya di area dalam */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Scrollable area */
+.modal-scroll {
+    flex: 1;
+    overflow: auto;
+    /* Scroll muncul kalau konten panjang */
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+/* Biar bisa scroll kanan kiri juga */
+.modal-scroll ul,
+.modal-scroll p {
+    min-width: 600px;
+    /* Kalau mau horizontal scroll */
+}
+
+/* Gambar di modal */
+.modal-content img {
+    max-height: 300px;
+    object-fit: contain;
+    width: 100%;
+}
+
+/* Tombol close */
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}

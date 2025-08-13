@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Project DKV CorelDRAW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Galeri Project DKV</h1>
+        <p>Belajar CorelDRAW melalui berbagai karya kreatif</p>
+    </header>
+
+    <main>
+        <section class="grid-container" id="projectGrid">
+            <!-- Card project akan dimasukkan lewat JavaScript -->
+        </section>
+
+        <section class="form-section">
+            <h2>Form Feedback Siswa</h2>
+            <form id="feedbackForm">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="kelas">Kelas:</label>
+                <input type="text" id="kelas" name="kelas" required>
+
+                <label for="komentar">Komentar:</label>
+                <textarea id="komentar" name="komentar" rows="4" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SMK Mutipuga - Pembelajaran DKV CorelDRAW</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <h3 id="modalTitle"></h3>
+            <ul id="modalBelajar"></ul>
+            <p id="modalTujuan"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

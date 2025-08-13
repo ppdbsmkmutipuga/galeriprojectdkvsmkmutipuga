@@ -269,7 +269,7 @@ const projects = [
         ]
     },
     {
-        "title": "Project DKV : Efek Blend pada Berbagai Bentuk Geometri",
+        "title": "Project DKV 15 : Efek Blend pada Berbagai Bentuk Geometri",
         "image": "images/project15dkv.png",
         "belajar": [
             "Membuat bentuk besar (lingkaran, bintang, segilima, atau bentuk bebas) di CorelDraw",

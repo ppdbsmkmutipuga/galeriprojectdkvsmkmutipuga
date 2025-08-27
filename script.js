@@ -1,6 +1,156 @@
 // Data project (setiap project punya data berbeda)
 const projects = [
     {
+        "title": "Latihan Shortcut di CorelDraw",
+        "image": "images/project19dkv.png",
+        "belajar": [
+            "<br><b>GENERAL SHORTCUTS</b><br>",
+            "- Ctrl + N : Membuat dokumen baru",
+            "- Ctrl + O : Membuka dokumen",
+            "- Ctrl + S : Menyimpan dokumen",
+            "- Ctrl + P : Mencetak dokumen",
+            "- Ctrl + Z : Undo (kembali ke langkah sebelumnya)",
+            "- Ctrl + Y : Redo (mengulang langkah yang dibatalkan)",
+            "- Ctrl + C : Copy",
+            "- Ctrl + V : Paste",
+            "- Ctrl + X : Cut",
+            "- Delete   : Hapus Objek",
+            "- Ctrl + A : Pilih semua objek",
+
+            "<br><b>SHORTCUT PADA OBJEK</b><br>",
+            "- Ctrl + D : Duplikat",
+            "- Ctrl + G : Group",
+            "- Ctrl + U : Ungroup",
+            "- Ctrl + Q : Convert to curves",
+            "- Ctrl + K : Break apart",
+            "- Ctrl + L : Combine",
+            "- Shift + Page Up / Page Down : Atur posisi layer (atas / bawah)",
+            "- Ctrl + Shift + Q : Convert outline to object",
+
+            "<br><b>ZOOM & NAVIGASI</b><br>",
+            "- F2 : Zoom in",
+            "- F3 : Zoom Out",
+            "- F4 : Zoom to all Objects",
+            "- F9 : Full Screen Preview",
+            "- H : Hand Tool (pindah area kerja)",
+
+            "<br><b>ALIGN & POSITION</b><br>",
+            "- L : Align Left",
+            "- R : Align Right",
+            "- T : Align Top",
+            "- B : Align Bottom",
+            "- C : Align Center Vertikal",
+            "- E : Align Middle Horizontal",
+            "- P : Center objek ke halaman",
+
+            "<br><b>TOOLS CEPAT</b><br>",
+            "- Spacebar : Beralih ke Pick Tool",
+            "- F6 : Rectangle Tool",
+            "- F7 : Ellipse Tool",
+            "- Y  : Polygon Tool",
+            "- B : Shape Tool",
+            "- I : Eyedropper Tool",
+            "- G : Interactive Fill Tool",
+
+            "<br><b>TEKS & EDITING</b><br>",
+            "- F8 : Aktifkan Text Tool",
+            "- Ctrl + T : Text Properties",
+            "- Ctrl + Shift + T : Character Formatting",
+            "- Ctrl + Shift + C : Paragraph Formating",
+            "- Ctrl + Shift + A : Fit text to path",
+            "- Ctrl + Shift + V : Paste properties"
+        ],
+        "tujuan": [
+            "Memudahkan pemula mengenal shortcut CorelDRAW sesuai kategori",
+            "Meningkatkan kecepatan kerja dengan mengingat tombol penting",
+            "Membantu memahami fungsi utama dalam pembuatan desain",
+            "Melatih efisiensi kerja tanpa selalu bergantung pada menu toolbar"
+        ]
+    },
+    {
+        "title": "Latihan Shortcut: Align & Distribute di CorelDraw",
+        "image": "images/project16dkv.png",
+        "belajar": [
+            "E → Ratakan objek ke TENGAH secara horizontal (kiri–kanan)",
+            "Shift + P → Bagi jarak objek sama rata secara horizontal",
+            "B → Ratakan objek ke BAWAH",
+            "T → Ratakan objek ke ATAS",
+            "C → Ratakan objek ke TENGAH secara vertikal (atas–bawah)",
+            "Shift + A → Bagi jarak objek sama rata secara vertikal",
+            "L → Ratakan objek ke KIRI",
+            "R → Ratakan objek ke KANAN",
+            "Klik 2 kali Rectangle Tool → Buat kotak langsung seukuran halaman kerja",
+            "Drag + klik kanan mouse → Gandakan objek cepat lalu pilih Copy Here",
+            "Mirror Horizontally → Balik objek kiri ↔ kanan tanpa mutar manual (buat simetris lebih cepat)"
+        ],
+        "tujuan": [
+            "Mempermudah pemula merapikan objek dengan shortcut cepat",
+            "Membiasakan menggunakan tombol keyboard supaya desain lebih efisien",
+            "Membantu mengingat fungsi shortcut dengan kata kunci sederhana (T=Top, B=Bottom, L=Left, R=Right, C=Center, E=Even/Horizontal)",
+            "Meningkatkan kerapian dan kecepatan dalam membuat layout dan desain simetris"
+        ]
+    },
+    {
+        "title": "Latihan Fitur Order di CorelDraw",
+        "image": "images/project20dkv.png",
+        "belajar": [
+            "Buat 3 objek: Lingkaran (merah), Bintang (putih), dan Bulan Sabit (kuning).",
+            "Seleksi semua objek, lalu atur posisinya menggunakan menu <i>Arrange → Order</i>.",
+            "Cobalah perintah berikut:",
+            "- Ctrl + Home : Pindahkan objek ke paling depan (To Front of Page).",
+            "- Ctrl + End : Pindahkan objek ke paling belakang (To Back of Page).",
+            "- Shift + PgUp : Pindahkan objek ke depan layer (To Front of Layer).",
+            "- Shift + PgDn : Pindahkan objek ke belakang layer (To Back of Layer).",
+            "- Ctrl + PgUp : Geser objek 1 tingkat ke depan (Forward One).",
+            "- Ctrl + PgDn : Geser objek 1 tingkat ke belakang (Back One).",
+            "Uji coba dengan menempatkan bintang di depan lingkaran, atau lingkaran di depan bulan sabit.",
+            "Bandingkan hasilnya dengan gambar contoh latihan."
+        ],
+        "tujuan": [
+            "Memahami fungsi Order untuk mengatur posisi objek bertumpuk",
+            "Melatih penggunaan shortcut dalam mengatur urutan objek",
+            "Mengembangkan keterampilan desain dengan pengaturan layer"
+        ]
+    },
+    {
+        "title": "Latihan Membuat Sudut Tumpul (Fillet) di CorelDraw",
+        "image": "images/project21dkv.png",
+        "belajar": [
+            "1. Buat sebuah bentuk poligon atau segi empat dengan sudut lancip.",
+            "2. Klik objek tersebut agar terseleksi.",
+            "3. Buka menu <i>Window → Dockers → Corners</i>.",
+            "4. Pada panel Dockers Corners, pilih opsi <b>Fillet</b>.",
+            "5. Atur nilai <b>Radius</b> sesuai kebutuhan (misalnya 5 mm atau 10 mm).",
+            "6. Klik tombol <b>Apply</b> untuk menerapkan efek sudut tumpul.",
+            "7. Perhatikan bahwa sudut lancip pada objek kini berubah menjadi tumpul (rounded)."
+        ],
+        "tujuan": [
+            "Memahami cara mengubah sudut lancip menjadi tumpul di CorelDRAW",
+            "Melatih penggunaan Dockers Corners dengan opsi Fillet",
+            "Menghasilkan desain yang lebih halus dan modern dengan sudut tumpul"
+        ]
+    },
+    {
+        "title": "Latihan Membuat Ukuran dengan Parallel Dimension Tool",
+        "image": "images/project22dkv.png",
+        "belajar": [
+            "1. Siapkan objek (kotak/pola) yang akan diberi ukuran.",
+            "2. Pilih <b>Parallel Dimension Tool</b> di Toolbox.",
+            "3. Klik titik pertama di sisi objek.",
+            "4. Klik titik kedua di ujung sisi tersebut.",
+            "5. Tarik keluar dan klik untuk menempatkan teks ukuran.",
+            "6. Atur posisi dan tampilannya melalui Property Bar (units, precision, text height, arrow style).",
+            "7. Ulangi untuk semua sisi yang perlu diberi ukuran.",
+            "8. Pastikan hasil rapi dan konsisten agar mudah dibaca."
+        ],
+        "tujuan": [
+            "Memahami fungsi Parallel Dimension Tool.",
+            "Melatih memberi ukuran presisi pada objek.",
+            "Membuat gambar teknis/desain yang jelas dan rapi."
+        ]
+    },
+
+    {
         title: "Project DKV 1 :Desain Ornamen Simetris dengan Shape Tool",
         image: "images/project01dkv.png",
         belajar: [
@@ -286,7 +436,51 @@ const projects = [
             "Memahami komposisi warna pada outline untuk memperkuat visual desain",
             "Mengembangkan kreativitas dalam menggabungkan berbagai bentuk untuk membuat karya tipografi dan ilustrasi unik"
         ]
+    },
+    {
+        "title": "Project DKV 17 : Eksperimen dengan Distort Tool",
+        "image": "images/project17dkv.png",
+        "belajar": [
+            "Gunakan Distort Tool dengan mode Push and Pull → untuk menarik/menjorokkan sisi bentuk agar terlihat melengkung unik",
+            "Gunakan Distort Tool dengan mode Zipper → untuk membuat efek bergerigi seperti bintang tajam atau objek berduri",
+            "Gunakan Distort Tool dengan mode Twister → untuk memutar objek menjadi spiral atau pusaran",
+            "Kombinasikan Distortion dengan warna (Fill dan Outline) agar efek lebih menarik",
+            "Bereksperimen dengan jumlah step/distortion untuk menghasilkan variasi desain kreatif"
+        ],
+        "tujuan": [
+            "Mengenal berbagai jenis Distort Tool di CorelDraw (Push and Pull, Zipper, Twister)",
+            "Melatih kreativitas dengan memodifikasi bentuk sederhana menjadi lebih ekspresif",
+            "Mengembangkan kemampuan membuat variasi desain dekoratif seperti bintang, spiral, atau ornamen abstrak",
+            "Membiasakan siswa bereksperimen dengan parameter Distortion agar lebih memahami efek visual yang dihasilkan"
+        ]
+    },
+    {
+        "title": "Project DKV 18 : Membuat Bunga Spiral dengan Distort Tool & PowerClip",
+        "image": "images/project18dkv.png",
+        "belajar": [
+            "Pilih Polygon Tool kemudian atur jumlah sisi (points or sides) menjadi 12",
+            "Gunakan Shape Tool → klik 2 kali di bagian tengah garis antara dua titik polygon",
+            "Tarik titik baru tersebut ke arah dalam sehingga terbentuk kelopak bunga",
+            "Pilih Distort Tool lalu gunakan Twister Distortion → ubah Complete Rotations menjadi 1 atau lebih sesuai kebutuhan untuk membuat efek spiral",
+            "Beri warna berbeda pada bagian kelopak (fill & outline) agar tampilan lebih menarik",
+            "Buat Rectangle sebagai wadah desain",
+            "Gunakan PowerClip → masukkan bunga spiral ke dalam Rectangle",
+            "Atur Present List menjadi Push Corner agar efek tampak lebih rapi dan dinamis"
+        ],
+        "tujuan": [
+            "Mempelajari cara mengubah polygon menjadi bentuk kreatif menggunakan Shape Tool",
+            "Melatih penggunaan Twister Distortion untuk membuat efek spiral pada objek",
+            "Mengembangkan keterampilan pewarnaan untuk memperkuat kesan visual desain",
+            "Menggunakan PowerClip untuk mengatur komposisi objek dalam sebuah wadah",
+            "Memahami teknik finishing dengan Present List agar hasil lebih profesional"
+        ]
     }
+
+
+
+
+
+
 
 ];
 
